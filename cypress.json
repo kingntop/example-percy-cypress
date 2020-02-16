@@ -1,1 +1,92 @@
-{ "video": false }
+{
+    "baseUrl": "https://only.webhard.co.kr/",
+    "userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Mobile Safari/537.36",
+    "env": {
+        "username": "testvictorchoi060",
+        "password": "qwqw1212",
+        "typedef": {
+            "master": "master",
+            "user": "user",
+            "guest": "guest",
+            "cowork": "cowork"
+        },
+        "account": {
+            "master": {
+                "username": "testvictorchoi060",
+                "password": "qwqw1212"
+            },
+            "user": {
+                "username": "testvictorchoi060001",
+                "password": "qwqw1212"
+            },
+            "guest": {
+                "username": "testvictorchoi060",
+                "password": "1111"
+            },
+            "cowork": {
+                "username": "testvictorchoi062",
+                "password": "qwqw1212"
+            }
+        },
+        "threshold": {
+            "master" : {
+                "folderCount": 5,
+                "fileCount": 5,
+                "sharedFolderCount": 1,
+                "guestFolderCount": 3,
+                "favorateFolderCount": 2,
+                "favorateFileCount": 3,
+                "collaboFolderCount": 1,
+                "collaboFileCount": 0,
+                "backupFolderCount": 2,
+                "backupFileCount": 2,
+                "contactsCount": 2,
+                "highestArticleCount": 2,
+                "normalArticleCount": 3,
+                "userCount": 2
+            },
+            "user" : {
+                "folderCount": 1,
+                "fileCount": 1,
+                "sharedFolderCount": 1,
+                "guestFolderCount": 0,
+                "favorateFolderCount": 0,
+                "favorateFileCount": 0,
+                "collaboFolderCount": 0,
+                "collaboFileCount": 0,
+                "backupFolderCount": 0,
+                "backupFileCount": 0,
+                "contactsCount": 1,
+                "highestArticleCount": 2,
+                "normalArticleCount": 3  
+            },
+            "guest": {
+                "folderCount": 0,
+                "fileCount": 0,
+                "sharedFolderCount": 0,
+                "guestFolderCount": 3,
+                "favorateFolderCount": 0,
+                "favorateFileCount": 0,
+                "collaboFolderCount": 0,
+                "collaboFileCount": 0,
+                "backupFolderCount": 0,
+                "backupFileCount": 0
+            },
+            "cowork": {
+                "folderCount": 0,
+                "fileCount": 0,
+                "sharedFolderCount": 1,
+                "guestFolderCount": 1,
+                "favorateFolderCount": 0,
+                "favorateFileCount": 0,
+                "collaboFolderCount": 1,
+                "collaboFileCount": 0,
+                "backupFolderCount": 0,
+                "backupFileCount": 0,
+                "highestArticleCount": 2,
+                "normalArticleCount": 3 
+            }
+        }
+    },        
+    "projectId": "kwaupr"
+}
